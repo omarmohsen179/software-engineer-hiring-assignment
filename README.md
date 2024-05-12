@@ -20,7 +20,7 @@ Before starting, make sure you have the following installed on your system:
 /
 ├── api/               # Node.js API source files
 ├── web/               # Next.js web application source files
-└── mobile/            # React Native source files
+└── app/            # React Native source files
 ├── docker-compose.dev.yml  # Docker compose file for local development
 ```
 
@@ -75,7 +75,7 @@ Ensure you create `.env` files for each project to configure necessary environme
 - **Building for production**:
 
   - API and Web: Use Docker commands to build images for production based on `docker-compose.yml`.
-  - Mobile: Run `expo build:android` or `expo build:ios` for building mobile app binaries.
+  - App: Run `expo build:android` or `expo build:ios` for building mobile app binaries.
 
 - **Running tests**:
   - For Node.js API and Next.js Web: Run test commands specified in each project's `package.json`.
