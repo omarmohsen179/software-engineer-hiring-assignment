@@ -1,0 +1,25 @@
+{
+  "development": {
+    "dialect": "postgres",
+    "host": "db",
+    "username": "docker",
+    "password": "docker",
+    "database": "nawy-db-11",
+    "port": 5432
+  },
+  "test": {
+    "dialect": "postgres",
+    "host": "db",
+    "username": "docker",
+    "password": "docker",
+    "database": "nawy-db",
+    "port": 5432
+  },
+  "production": {
+    "username": "root",
+    "password": null,
+    "database": "database_production",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  }
+}
